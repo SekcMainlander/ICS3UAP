@@ -7,21 +7,13 @@ public class ExampleOne {
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
 
-		int x, y, z;
-		System.out.print("Please enter three integers: ");
+		int a = 5;
+		int b = 4;
 		
-		//system.out = console 		system.in = keyboard
+		double x = 5.0;
+		double y = 4.0;
 		
-		
-		x = keyboard.nextInt(); // Grabs the next integer
-		y = keyboard.nextInt(); // Grabs the next integer
-		z = keyboard.nextInt(); // Grabs the next integer
-		
-		double average = (x + y + z) / 3.0;
-		
-		System.out.println("The average of the numbers: " + x + ", " + y + " and " + z + " is " + average);
-		
-		keyboard.close();
+		System.out.println(a + b / 3);
 		
 	}
 

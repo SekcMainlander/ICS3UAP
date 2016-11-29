@@ -15,7 +15,6 @@ public class ExampleOne {
 		int digit1 = (num / 100000);
 		
 		System.out.println("My 6 digit number is: " + digit1 + digit2 + digit3 + digit4 + digit5 + digit6);
-		
 	}
 
 }
